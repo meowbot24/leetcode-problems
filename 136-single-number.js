@@ -4,7 +4,7 @@
 // if there is no duplicate, it is the single element, stop checking further
 
 
-numbers = [3,5,1,6,-65,3,16,7,6,5,1,16,7,8,8,42,32,42,32,5];
+numbers = [3,5,1,6,-65,3,16,7,6,5,1,16,7,8,8,42,32,42,32,5,5,5];
 
 var singleNumber = function(nums) {
 

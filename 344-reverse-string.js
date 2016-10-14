@@ -7,7 +7,7 @@
 function reverseString(str) {
 	var newStr = str.split("").reverse().join("");
 	return newStr;
-};
+}
 
 var reversed = reverseString("hello");
 
