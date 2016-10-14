@@ -74,6 +74,5 @@ function findResult(input) {
 }
 
 var result = findResult(num);
-
 console.log("Result " + result);
 
