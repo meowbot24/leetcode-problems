@@ -5,8 +5,7 @@
 
 
 function reverseString(str) {
-	var newStr = str.split("").reverse().join("");
-	return newStr;
+	return newStr = str.split("").reverse().join("");
 }
 
 var reversed = reverseString("hello");
