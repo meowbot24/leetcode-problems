@@ -13,7 +13,7 @@
 // if sum is a single digit, return it
 // if sum is not a single digit, split sum integer into single digits, and so on
 
-var num = 4598;
+var num = 1;
 
 // function to split integer into array of digits
 function splitInteger(integer) {
@@ -49,9 +49,7 @@ function numDigits(arrayOfDigits) {
 	// convert sum to array to check array length/number of digits
 	var sumArray = arrayOfDigits.toString().split("");
 
-	var numofDigits = sumArray.length;
-
-	return numofDigits;
+	return sumArray.length;
 }
 
 
@@ -64,15 +62,13 @@ function findResult(input) {
 	var numberOfDigits = numDigits(digitSum);
 
 	if (numberOfDigits === 1) {
-		console.log("type: " + typeof(digitSum) + digitSum);
 		return digitSum;
 	} else {
-		console.log("type: " + typeof(digitSum) + digitSum);
 		return findResult(digitSum);
 	}
 
 }
 
 var result = findResult(num);
-console.log("Result " + result);
+console.log("Result: " + result);
 
